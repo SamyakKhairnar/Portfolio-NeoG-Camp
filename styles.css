@@ -20,16 +20,16 @@ hr {
 
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-center {
-    max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .link {
     display: inline-block;
-    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
     text-align: center;
@@ -39,19 +39,16 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    display: block;
     max-width: 140px;
-    margin: auto;
+    margin: 0px 2rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    display: block;
     max-width: 140px;
-    margin: auto;
-
+    
 }
 
 .list-non-bullet {
@@ -74,7 +71,6 @@ hr {
 }
 
 .navigation .nav-brand {
-    /* font-weight: bold; */
     font-size: 2rem;
     font-family: 'Questrial', sans-serif;
 }
@@ -94,12 +90,12 @@ hr {
 .navigation .link-active {
     font-weight: bolder;
     border: 1px solid #ccfbf1;
+    border-radius: 4px;
 }
 
 .hero {
     padding: 2rem;
     padding-top: 5rem;
-
 }
 
 .hero .hero-img {
@@ -122,9 +118,10 @@ hr {
 }
 
 .section {
-    width: 90%;
+    width: 80%;
+    border-radius: 1rem;
     margin: auto;
-    padding: 2rem;
+    padding: 4rem;
     margin-bottom: 1rem;
 }
 
