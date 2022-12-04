@@ -42,6 +42,7 @@ hr {
     max-width: 140px;
     margin: 0px 2rem;
     font-size: 1.2rem;
+    cursor: pointer;
     transition: box-shadow 0.4s, border 0.4s;
 }
 .link-primary:hover{
@@ -53,6 +54,7 @@ hr {
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
+    cursor: pointer;
     border: 1px solid var(--primary-color);
     max-width: 140px;
     font-size: 1.2rem;
@@ -153,12 +155,58 @@ hr {
     background-color: var(--off-white);
 }
 
+.contact-form{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.contact-container{
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1rem;
+    padding-top: 5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+}
+.contact-container input{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.contact-msg{
+    height: 10rem;
+}
+.contact-btn{
+    font-size: 1.6rem;
+    margin: auto;
+}
+.contact-btn{
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+    transition: box-shadow 0.4s, border 0.4s;
+}
+.contact-btn:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+    font-weight: 500;
+    border: 2px solid white;
+}
+
 .footer {
     width: 90%;
+    height: 5rem;
     margin: auto;
     margin-top: 2rem;
     background-color: var(--primary-color);
-    padding: 1.5rem 0rem;
+    /* padding: 0rem 0rem; */
     text-align: center;
     color: white;
     border-top-right-radius: 1.5rem;
@@ -171,6 +219,7 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    margin-top: 5rem;
 }
 
 .link .fa-brands{
