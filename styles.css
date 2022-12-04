@@ -176,6 +176,7 @@ hr {
     margin: auto;
     padding: 5px;
     font-size: 1.5rem;
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
 }
 .contact-msg{
@@ -199,6 +200,17 @@ hr {
     font-weight: 500;
     border: 2px solid white;
 }
+.blog-container{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.blog-container p{
+    text-indent: 50px;
+}
+
 
 .footer {
     width: 90%;
