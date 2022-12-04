@@ -203,9 +203,9 @@ hr {
 .blog-container{
     width: 80%;
     margin: auto;
-    border: 1px solid black;
+    border: 2px double black;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 .blog-container p{
     text-indent: 50px;
