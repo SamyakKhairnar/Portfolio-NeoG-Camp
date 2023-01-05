@@ -228,7 +228,7 @@ hr {
     color: white
 }
 
-.footer .footer-header {
+ .footer-header {
     font-weight: bold;
     font-size: large;
     margin-top: 5rem;
@@ -247,11 +247,51 @@ hr {
 @media only screen and (max-width: 600px) {
     .container,.footer {
       width: 95%;
+      margin: auto;
     }
     .section{
-        width: 100%;
-        padding: 5px;
+        width: 95%;
+        padding: 8px 0px 8px 0px;
         font-size: medium;
     }
-    
+    .hero-img{
+        height: auto;
+    }
+    .nav-brand{
+        text-align: center;
+    }
+    .navigation .nav-brand{
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .navigation .link{
+        font-size: large;
+    }
+    .nav-pills{
+        font-size: small;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+    }
+    .link{
+        font-size: smaller;
+    }
+    .container h1{
+        font-size: 1.2rem;
+    }
+    .container p{
+        font-size: small;
+    }
+    .hero .hero-heading{
+        font-size: 1.5rem;
+    }
+    .footer-header{
+        font-size: smaller;   
+    }
+    .link .fa-brands{
+        font-size: large;
+    }
   }
