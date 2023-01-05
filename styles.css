@@ -243,4 +243,15 @@ hr {
     color: #ffffff;
 }
 
-  
+
+@media only screen and (max-width: 600px) {
+    .container,.footer {
+      width: 95%;
+    }
+    .section{
+        width: 100%;
+        padding: 5px;
+        font-size: medium;
+    }
+    
+  }
