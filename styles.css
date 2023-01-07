@@ -245,6 +245,10 @@ hr {
 
 
 @media only screen and (max-width: 600px) {
+    body{
+        width: 98%;
+        text-align: center;
+    }
     .container,.footer {
       width: 95%;
       margin: auto;
@@ -261,6 +265,7 @@ hr {
         text-align: center;
     }
     .navigation .nav-brand{
+        padding: 10px;
         font-size: larger;
         font-weight: bolder;
     }
@@ -270,14 +275,24 @@ hr {
     .nav-pills{
         font-size: small;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        
+        margin: 0px;
+        padding: 0px;
+    }
+    .list-item-inline{
+        padding: 0px;
     }
     .link{
-        font-size: smaller;
+        font-size: small;
+    }
+    .navigation .link-active{
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid #ccfbf1;
+        border-radius: 0%;
     }
     .container h1{
         font-size: 1.2rem;
@@ -288,10 +303,28 @@ hr {
     .hero .hero-heading{
         font-size: 1.5rem;
     }
+
     .footer-header{
         font-size: smaller;   
     }
     .link .fa-brands{
         font-size: large;
+    }
+
+    .contact-form{
+        width: 95%;
+    }
+    .contact-btn{
+        font-size: medium;
+        font-weight: bold;
+    }
+    .contact-container input{
+        font-size: medium;
+    }
+    .blog-container{
+        width: 75%;
+    }
+    .contact-container{
+        padding: 1rem 0px;
     }
   }
